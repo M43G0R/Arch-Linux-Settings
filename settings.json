@@ -1,0 +1,180 @@
+{
+    "workbrench.colorTheme": "Default Dark Modern",
+    "workbrench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontLigatures": true,
+    "explorer.fileNesting.enabled": true, // Permite navegacion de directorios anidados
+    "editor.minimap.enabled": false, // Desactiva el minimapa
+    "editor.renderWhitespace": "all", // muestra espacios en blanco
+    "editor.wordWrap": "on", // ajusta texto
+    "editor.tabSize": 2, // tamaño de tabulacion
+    "terminal.integrated.fontFamily": "DaddyTimeMonoNerdFontMono", // Familia de la fuente
+    "terminal.integrated.fontSize": 16, // Tamaño de la fuente
+    "editor.cursorBlinking": "blink", // Animacion del cursor
+    "editor.guides.highlightActiveIndentation": "always", // Resalta indentacion activa
+    "editor.lineHeight": 1.5, // Altura de linea
+    // "editor.cursorStyle": "block", // Estilo de la barra del cursor
+    "files.trimFinalNewlines": true, // Quita nuevas lineas
+    "editor.suggestSelection": "first", // Selecciona primera sugerencia
+    // "breadcrumbs.enabled": false, // Deshabilita la ruta arriba del codigo
+    "javascript.validate.enable": true, // Deshabilita la validacion de JS
+    // "workbench.startupEditor": "none", // Deshabilita el editor de inicio
+    // "workbench.activityBar.visible": true, // Deshabilita la barra de actividades
+    "editor.glyphMargin": false, // Deshabilita los simbolos de la linea de codigo
+    "editor.inlineSuggest.enabled": true, // Habilita sugerencias
+    "editor.bracketPairColorization.enabled": true, // Habilita el coloreado de parentesis
+    "editor.guides.bracketPairs": true, // Habilita guias de parentesis
+    "editor.guides.bracketPairsHorizontal": true, // Habilita parentesis en horizontal
+    "editor.guides.highlightActiveBracketPair": true, // El parentesis activo se ilumina
+    "explorer.sortOrder": "type", // Ordena los archivos por tipo
+    "editor.formatOnPaste": true, // Formatea el codigo al pegarlo
+    "editor.formatOnType": true, // Formatea una linea despues de escribirla
+    "editor.formatOnSave": true, // Formatea el codigo al guardar
+    "editor.linkedEditing": true, // Habilita la edicion enlazada
+    // "workbench.editor.tabCloseButton": "off", // Remueve el icono para cerrar pestañas
+    "files.trimTrailingWhitespace": true, // Remueve los espacios en blanco al final de la linea
+    "files.exclude": { //Archivos excluidos
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.cvs": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".vscode": true,
+        "node_modules": true,
+        "package-lock.json": true,
+        "yarn.lock": true,
+    },
+    "search.exclude": { // Archivos excluidos de la busqueda
+        ".git": true,
+        ".vscode": true,
+        ".yarn": true,
+        "build": true,
+        "dist": true,
+        "node_modules": true,
+        "types": true,
+        ".pnp.cjs": true,
+        ".pnp.js": true,
+        ".pnp.mjs": true,
+        "package-lock.json": true,
+        "yarn.lock": true,
+    }, // Deshabilita la barra de estado
+    "explorer.confirmDragAndDrop": false, // Deshabilita la config al arrastrar y soltar
+    "explorer.confirmDelete": false, // Habilita la config al cerrar
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true, // Habilita los tipo de retorno en TS
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true, // Habilita los tipo de retorno en JS
+    "workbench.editor.enablePreview": false, // Deshabilita la vista previa de los archivos
+    // "extensions.ignoreRecommendations": true, // Deshabilita las recomendaciones de extensiones
+    "editor.fontFamily": "DaddyTimeMono, 'DaddyTimeMono', DaddyTimeMono Nerd Font, 'DaddyTimeMono Nerd Font', 'DaddyTimeMono Nerd Font Mono-Regular', 'arial', 'Courier New'", // Fuente de la linea de codigo0
+    "editor.fontSize": 16,
+    // "telemetry.telemetryLevel": "off", // Deshabilita la telemetria de VsCode
+    "javascript.updateImportsOnFileMove.enabled": "always", // Habilita el movimiento de archivos de Js
+    "javascript.suggest.completeFunctionCalls": true, // Habilita la autocompletacion de llamadas de funciones
+    "typescript.suggest.completeFunctionCalls": true, // Habilita la autocompletacion de llamadas de funciones
+    "editor.suggest.preview": true, // Habilita la vista previa de los archivos
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "diffEditor.codeLens": true, // Habilita los codigos lens en el diff editor
+    "editor.codeLensFontSize": 15, // Tamaño de fuente de lens
+    "workbench.statusBar.visible": true, // Habilita la barra de estado
+    "typescript.format.enable": true, // Habilita el formato de Ts
+    "typescript.suggest.autoImports": true, // Habilita la autocompletacion de los imports
+    "editor.inlayHints.enabled": "on", // Habilita las sugerencias de inlay hints
+    "typescript.format.insertSpaceAfterOpenConstructor": true,
+    "javascript.inlayHints.enumMemberValues.enabled": true, // Habilita los valores de los enunciados en los hints
+    "javascript.inlayHints.parameterNames.enabled": "all", // Habilita los nombres de parametros en los hints
+    "javascript.inlayHints.parameterTypes.enabled": true, // Habilita los tipos de parametros en los hints
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true, // Habilita los tipos de propiedades en los hints
+    "javascript.inlayHints.variableTypes.enabled": true, // Habilita los tipos de variables de los hints
+    "python.suggest.autoImports": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#5D006d", // Color de fondo de la barra de titulo
+        "titleBar.inactiveBackground": "#cc13ad", // Color de fondo de la barra de titulo inactiva
+        "editorGroup.dropBackground": "#0abdc6", // Color de fondo de la pestaña
+        "editor.background": "#010307", // Color del fondo del editor
+        "input.background": "#690069", // Color de los input
+        "list.hoverBackground": "#c300f8", // Color de fondo de la lista de archivos
+        "list.hoverForeground": "#000000", // Color de letra de la lista de archivos
+        "badge.background": "#71e702", // Color de fondo de los badges de la barra de estado
+        "panel.background": "#0b0d13", // Color de fondo de los paneles
+        "menu.background": "#07447c", // Color de fondo del menu
+        "sideBar.background": "#000000", // Color de fondo de la barra lateral
+        "button.background": "#00cccc", // Color de fondo de los botones
+        "input.border": "#d700df", // Color del borde de los inputs
+        "checkbox.background": "#d700df", // Color del borde de los checkbox
+        "list.inactiveSelectionBackground": "#36007e", // Color de fondo de seleccion inactiva
+        "list.activeSelectionBackground": "#6200ff", // Color de fonde de la seleccion activa
+        "editorWidget.background": "#0f111a", // Color de fondo de los widgets de editor
+        "icon.foreground": "#ffffff", // Color de la letra de los iconos
+        "focusBorder": "#6200ff", // Color del borde de los inputs
+        "dropdown.border": "#ffd000", // Color del borde del dropdown
+        "tab.inactiveBackground": "#360066", // Color de fondo de las pestañas inactivas
+        "tab.activeBackground": "#2f007b", // Color de fondo de las pestañas activas
+        "tab.activeForeground": "#ffe100", // Color de los iconos de las pestañas activas
+        "tab.inactiveForeground": "#e4d1ff", // Color de los iconos de las pestañas inactivas
+        "editorGroupHeader.tabsBackground": "#0b0c12", // Color de fondo de las pestañas de grupo de editor
+        "editor.lineHighlightBackground": "#2f038141", // Color de resaltado de linea
+        "editor.selectionBackground": "#0084ff67", // Color de resaltado de seleccion
+        "dropdown.background": "#0b0d13", // menu hacia abajo en el fondo
+        "editorLineNumber.foreground": "#cfb700", // Color de los numeros de linea
+        "editorLineNumber.activeForeground": "#2600ff", // Color de los numeros de linea activos
+        "activityBar.background": "#09000e", // Color de fondo de la barra de actividades
+        "statusBar.background": "#09000e", // Color de la barra de estado
+        "statusBar.noFolderBackground": "#6200ff", // Color de la barra de estado sin archivo
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#004de6", // Color de fondo de los comentarios
+        "textMateRules": [
+            {
+                "name": "DaddyTimeMonoNerdFontMono",
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage",
+                    "keyword.control",
+                    "keyword.control.from",
+                    "keyword.control.flow",
+                    "keyword.operator.new",
+                    "keyword.control.import",
+                    "keyword.control.export",
+                    "keyword.control.default",
+                    "keyword.control.trycatch",
+                    "keyword.control.conditional",
+                    "storage.type",
+                    "storage.type.class",
+                    "storage.modifier.tsx",
+                    "storage.type.function",
+                    "storage.modifier.async",
+                    "variable.language",
+                    "variable.language.this",
+                    "variable.language.super",
+                    "meta.class",
+                    "meta.var.expr",
+                    "constant.language.null",
+                    "support.type.primitive",
+                    "entity.name.method.js",
+                    "entity.other.attribute-name",
+                    "punctuation.definition.comment",
+                    "text.html.basic entity.other.attribute-name",
+                    "tag.decorator.js entity.name.tag.js",
+                    "tag.decorator.js punctuation.definition.tag.js",
+                    "sorce.js constant.other.object.key.js string.unquoted.label.js",
+                ],
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "window.zoomLevel": 1,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.codeActionsOnSave": {},
+    "redhat.telemetry.enabled": false,
+}
