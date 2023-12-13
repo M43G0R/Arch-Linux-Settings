@@ -1,0 +1,104 @@
+{
+  "ChromaBlend": {
+    "monandtall": [
+      "#112233",
+      "#FF5733",
+      2,
+      1,
+      8,
+      1,
+      "NewMonoFont"
+    ],
+    "widget_defaults": [
+      "NewMonoFont",
+      16,
+      4,
+      "#112233"
+    ],
+    "screen": {
+      "groupBox": [
+        "#FF33A1",
+        "dashed",
+        1,
+        "#FFD700",
+        "#FF5733",
+        "#000000",
+        1,
+        12,
+        28
+      ],
+      "windowName": [
+        "#FFD700",
+        "NewWindowName"
+      ],
+      "volume": [
+        "#FF57E0",
+        12
+      ],
+      "quickExit": [
+        "⭘",
+        20,
+        12,
+        "#FF5733"
+      ],
+      "net": {
+        "textBox": [
+          "󰑬",
+          28,
+          "#112233",
+          "#FFD700",
+          "#000000",
+          5
+        ],
+        "net": [
+          "{down:.1f}{down_suffix} - {up:.1f}{up_suffix}",
+          "#FFD700",
+          "#112233",
+          12,
+          12
+        ]
+      },
+      "currentLayout": {
+        "textBox": [
+          "󱀆",
+          30,
+          "#112233",
+          "#33FF00"
+        ],
+        "layout": [
+          "#33FF00",
+          12,
+          "#112233"
+        ]
+      },
+      "clock": {
+        "textBox": [
+          "󱑈",
+          21,
+          "#FF5733"
+        ],
+        "clock": [
+          "%Y/%m/%d %a %H:%M %p",
+          12,
+          "#FF5733"
+        ]
+      },
+      "battery": {
+        "textBox": [
+          "󱐎",
+          20,
+          "#33aaff",
+          "#112233"
+        ],
+        "battery": [
+          "#33aaff",
+          "#112233",
+          40,
+          10,
+          "#00ff00",
+          "#112233"
+        ]
+      }
+    }
+  }
+}

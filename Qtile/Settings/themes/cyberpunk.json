@@ -1,0 +1,76 @@
+{
+  "cyberpunk": {
+    "monandtall": [
+      "#000000",
+      "#9300DB",
+      "DaddyTimeMonoNerdFontMono"
+    ],
+    "widget_defaults": [
+      "DaddyTimeMonoNerdFontMono",
+      "#000222"
+    ],
+    "screen": {
+      "groupBox": [
+        "#BC00C5",
+        "#F977FF",
+        "#FCD605",
+        "#ffffff"
+      ],
+      "windowName": [
+        "#FFD600"
+      ],
+      "volume": [
+        "#E455FF"
+      ],
+      "quickExit": [
+        "\uf011",
+        "#9300DB"
+      ],
+      "net": {
+        "textBox": [
+          "󰑫",
+          "#000000",
+          "#FFD600",
+          "#ffffff"
+        ],
+        "net": [
+          "#FFD600",
+          "#000000"
+        ]
+      },
+      "currentLayout": {
+        "textBox": [
+          "󱀅",
+          "#000000",
+          "#00FFD6"
+        ],
+        "layout": [
+          "#00FFD6",
+          "#000000"
+        ]
+      },
+      "clock": {
+        "textBox": [
+          "󱑆",
+          "#9300DB"
+        ],
+        "clock": [
+          "#9300DB"
+        ]
+      },
+      "battery": {
+        "textBox": [
+          "󱐋",
+          "#aaafff",
+          "#000000"
+        ],
+        "battery": [
+          "#aaafff",
+          "#000000",
+          "#ff0000",
+          "#000000"
+        ]
+      }
+    }
+  }
+}
